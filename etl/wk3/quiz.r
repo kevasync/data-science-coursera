@@ -1,6 +1,6 @@
 library(dplyr)
 library(jpeg)
-library(dplyr)
+library(tidyr)
 
 #1 Create a logical vector that identifies the households on greater than 10 acres who sold more than $10,000 worth of agriculture products. Assign that logical vector to the variable agricultureLogical. Apply the which() function like this to identify the rows of the data frame where the logical vector is TRUE.
 # which(agricultureLogical)
